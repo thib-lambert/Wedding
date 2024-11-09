@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Menu</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+        <style>
+            @font-face {
+                font-family: "Sugar Brown";
+                src: url("https://thib-lambert.github.io/Wedding/fonts/Brown-Sugar.ttf") format("truetype"), url("https://thib-lambert.github.io/Wedding/fonts/Brown-Sugar.otf") format("opentype");
+                font-weight: normal;
+                font-style: normal;
+            }
+
+            @font-face {
+                font-family: "Baskervville";
+                src: url("https://thib-lambert.github.io/Wedding/fonts/Baskervville.ttf") format("truetype");
+                font-weight: normal;
+                font-style: normal;
+            }
+
+            @font-face {
+                font-family: "Quicksand";
+                src: url("https://thib-lambert.github.io/Wedding/fonts/Quicksand.ttf") format("truetype");
+                font-weight: normal;
+                font-style: normal;
+            }
+            
+            body {
+                font-family: "Sugar Brown", sans-serif;
+            }
+
+            h3 {
+                font-family: "Baskervville", sans-serif;
+            }
+
+            .w3-quarter p {
+                font-family: "Quicksand", sans-serif;
+            }
+
+            .w3-bar-block .w3-bar-item {
+                padding: 20px;
+            }
+
+            .angled-border-box {
+                position: relative;
+                padding-top: 0px;
+                padding-bottom: 16px;
+                padding-left: 0px;
+                padding-right: 8px;
+            }
+
+            .angled-border-bottom-right {
+                position: absolute;
+                bottom: 8px;
+                right: 0px;
+                border-bottom: 2px solid #f1340a;
+                border-right: 2px solid #f1340a;
+                height: 30%;
+                width: 35%;
+            }
+        </style>
+    </head>
+    <body style="background-color: #fff3ef;">
+        <!-- Top menu -->
+        <div class="w3-top">
+            <div class="w3-xlarge" style="max-width: 1200px; margin: auto; background-color: #fff3ef;">
+                <div class="w3-button w3-padding-16 w3-left"></div>
+                <div class="w3-right w3-padding-16"></div>
+                <div class="w3-center w3-padding-16" style="color: #f1340a;">BON APPÉTIT !</div>
+            </div>
+        </div>
+        <!-- !PAGE CONTENT! -->
+        <div class="w3-main w3-content w3-padding" style="max-width: 1200px; margin-top: 48px;">
+            <!-- First Photo Grid-->
+            <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+                <div class="w3-quarter">
+                    <div class="angled-border-box">
+                        <img src="resources/image_a.jpg" alt="A" style="width: 100%;" />
+                        <div class="angled-border-bottom-right"></div>
+                    </div>
+                    <h3>The Perfect Sandwich, A Real NYC Classic</h3>
+                    <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                </div>
+                <div class="w3-quarter">
+                    <div class="angled-border-box">
+                        <img src="resources/image_b.jpg" alt="B" style="width: 100%;" />
+                        <div class="angled-border-bottom-right"></div>
+                    </div>
+                    <h3>Let Me Tell You About This Steak</h3>
+                    <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                </div>
+                <div class="w3-quarter">
+                    <div class="angled-border-box">
+                        <img src="resources/image_c.jpg" alt="C" style="width: 100%;" />
+                        <div class="angled-border-bottom-right"></div>
+                    </div>
+                    <h3>Cherries, interrupted</h3>
+                    <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                    <p>What else?</p>
+                </div>
+                <div class="w3-quarter">
+                    <div class="angled-border-box">
+                        <img src="resources/image_d.jpg" alt="D" style="width: 100%;" />
+                        <div class="angled-border-bottom-right"></div>
+                    </div>
+                    <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
+                    <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                </div>
+            </div>
+        </div>
+        <!-- End page content -->
+    </body>
+</html>
